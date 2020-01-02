@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static woowahan.anifarm.tecolearning.study.domain.StudyStatus.FINISHED;
 import static woowahan.anifarm.tecolearning.study.domain.StudyStatus.ONGOING;
-import static woowahan.anifarm.tecolearning.user.controller.UserControllerTest.SAMPLE_USER_ID;
+import static woowahan.anifarm.tecolearning.user.controller.UserApiControllerTest.SAMPLE_USER_ID;
 
 @Slf4j
 public class StudyApiControllerTest extends AbstractWebTestClient {

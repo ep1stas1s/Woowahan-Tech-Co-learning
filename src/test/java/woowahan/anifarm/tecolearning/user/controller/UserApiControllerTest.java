@@ -10,6 +10,7 @@ import woowahan.anifarm.tecolearning.auth.service.exception.JWTValidException;
 import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
 
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,7 +18,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.restdocs.operation.preprocess.Preprocessors.*;
 import static org.springframework.restdocs.webtestclient.WebTestClientRestDocumentation.document;
 
-public class UserControllerTest extends AbstractWebTestClient {
+public class UserApiControllerTest extends AbstractWebTestClient {
     public static final long SAMPLE_USER_ID = 1L;
 
     private static final String EMAIL = "email";
@@ -93,7 +94,7 @@ public class UserControllerTest extends AbstractWebTestClient {
     @DisplayName("비로그인 시 유저읽기 실패")
     void readUser_fail() throws UnsupportedEncodingException {
         removeToken();
-        assertThat(new String(getRequest(API_USERS + "/" + testUser.getId()).getResponseBody(), "utf-8"))
+        assertThat(new String(getRequest(API_USERS + "/" + testUser.getId()).getResponseBody(), StandardCharsets.UTF_8))
                 .isEqualTo(new JWTValidException().getMessage());
     }
 }
