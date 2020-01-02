@@ -50,7 +50,7 @@ public class UserApiControllerTest extends AbstractWebTestClient {
         params.put(PASSWORD, "testtest");
         params.put(NICK_NAME, "test");
 
-        post(API_USERS + "/signup", params)
+        post(API_USERS, params)
                 .expectStatus()
                 .isOk()
                 .expectBody()

@@ -113,7 +113,7 @@
       requestSignUp() {
         this.$request.post(
           {
-            url: `${window.location.origin}/api/users/signup`,
+            url: `${window.location.origin}/api/users`,
             body: this.signUpFormData,
             json: true,
           },
