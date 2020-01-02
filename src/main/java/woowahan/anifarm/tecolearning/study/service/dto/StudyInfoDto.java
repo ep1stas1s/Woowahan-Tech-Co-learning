@@ -5,9 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import woowahan.anifarm.tecolearning.study.domain.Study;
-import woowahan.anifarm.tecolearning.study.domain.StudyParticipant;
 import woowahan.anifarm.tecolearning.study.domain.StudyStatus;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
 
 import java.time.LocalDate;
 

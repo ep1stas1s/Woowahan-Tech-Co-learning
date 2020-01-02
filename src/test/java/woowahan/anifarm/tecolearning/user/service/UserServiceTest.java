@@ -8,8 +8,8 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import woowahan.anifarm.tecolearning.user.domain.User;
 import woowahan.anifarm.tecolearning.user.domain.UserRepository;
-import woowahan.anifarm.tecolearning.user.dto.UserCreateDto;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserCreateDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;

@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import woowahan.anifarm.tecolearning.auth.advice.LoggedInUser;
 import woowahan.anifarm.tecolearning.studyoutput.service.StudyOutputService;
 import woowahan.anifarm.tecolearning.studyoutput.service.dto.StudyOutputDto;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
 
 import java.util.List;
 

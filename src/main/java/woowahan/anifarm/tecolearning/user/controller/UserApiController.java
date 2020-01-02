@@ -3,9 +3,9 @@ package woowahan.anifarm.tecolearning.user.controller;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import woowahan.anifarm.tecolearning.auth.advice.LoggedInUser;
-import woowahan.anifarm.tecolearning.user.dto.UserCreateDto;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
-import woowahan.anifarm.tecolearning.user.dto.UserUpdateDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserCreateDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserUpdateDto;
 import woowahan.anifarm.tecolearning.user.service.UserService;
 
 @RestController

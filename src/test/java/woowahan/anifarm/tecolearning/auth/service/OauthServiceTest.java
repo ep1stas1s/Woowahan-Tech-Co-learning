@@ -6,8 +6,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import woowahan.anifarm.tecolearning.AbstractWebTestClient;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
-import woowahan.anifarm.tecolearning.user.dto.UserLoginDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserLoginDto;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

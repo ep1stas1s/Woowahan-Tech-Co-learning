@@ -4,7 +4,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import woowahan.anifarm.tecolearning.auth.service.OauthService;
-import woowahan.anifarm.tecolearning.user.dto.UserLoginDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserLoginDto;
 
 import javax.servlet.http.HttpServletResponse;
 

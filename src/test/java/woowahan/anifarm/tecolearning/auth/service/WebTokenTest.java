@@ -10,8 +10,8 @@ import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static woowahan.anifarm.tecolearning.user.dto.UserInfoDto.EMAIL_KEY;
-import static woowahan.anifarm.tecolearning.user.dto.UserInfoDto.ID_KEY;
+import static woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto.EMAIL_KEY;
+import static woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto.ID_KEY;
 
 class WebTokenTest {
     private static final long LOGIN_VALID_SECOND = 2;

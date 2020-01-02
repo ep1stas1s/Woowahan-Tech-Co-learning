@@ -22,7 +22,7 @@ import woowahan.anifarm.tecolearning.study.service.dto.StudyParticipantInfoDto;
 import woowahan.anifarm.tecolearning.study.service.dto.StudySummaryDto;
 import woowahan.anifarm.tecolearning.study.service.exception.StudyParticipantNotFoundException;
 import woowahan.anifarm.tecolearning.user.domain.User;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
 import woowahan.anifarm.tecolearning.user.service.UserService;
 
 import java.util.ArrayList;

@@ -12,7 +12,7 @@ import woowahan.anifarm.tecolearning.study.domain.repository.StudyRepository;
 import woowahan.anifarm.tecolearning.study.service.dto.*;
 import woowahan.anifarm.tecolearning.study.service.exception.StudyNotFoundException;
 import woowahan.anifarm.tecolearning.user.domain.User;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
 import woowahan.anifarm.tecolearning.user.service.UserService;
 
 import java.util.Collections;

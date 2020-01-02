@@ -9,7 +9,7 @@ import woowahan.anifarm.tecolearning.studyoutput.domain.StudyOutput;
 import woowahan.anifarm.tecolearning.studyoutput.domain.repository.StudyOutputRepository;
 import woowahan.anifarm.tecolearning.studyoutput.service.dto.StudyOutputDto;
 import woowahan.anifarm.tecolearning.studyoutput.service.exception.OutputNotFoundException;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
 
 import java.util.List;
 

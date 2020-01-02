@@ -3,7 +3,7 @@ package woowahan.anifarm.tecolearning.user.domain;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import woowahan.anifarm.tecolearning.user.domain.exception.UserAuthenticationFailException;
-import woowahan.anifarm.tecolearning.user.dto.UserUpdateDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserUpdateDto;
 
 import static org.assertj.core.api.Assertions.*;
 

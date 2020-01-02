@@ -1,4 +1,4 @@
-package woowahan.anifarm.tecolearning.user.dto;
+package woowahan.anifarm.tecolearning.user.service.dto;
 
 import lombok.Builder;
 import lombok.Getter;

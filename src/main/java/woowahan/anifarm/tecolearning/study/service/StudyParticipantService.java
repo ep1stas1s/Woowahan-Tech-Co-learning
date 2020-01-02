@@ -8,7 +8,7 @@ import woowahan.anifarm.tecolearning.study.domain.repository.StudyParticipantRep
 import woowahan.anifarm.tecolearning.study.service.dto.StudyParticipantInfoDto;
 import woowahan.anifarm.tecolearning.study.service.exception.StudyParticipantNotFoundException;
 import woowahan.anifarm.tecolearning.user.domain.User;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
 
 import java.util.List;
 import java.util.Set;

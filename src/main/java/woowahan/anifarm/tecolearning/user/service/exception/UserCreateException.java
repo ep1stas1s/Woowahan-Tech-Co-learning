@@ -1,4 +1,4 @@
-package woowahan.anifarm.tecolearning.user.exception;
+package woowahan.anifarm.tecolearning.user.service.exception;
 
 import woowahan.anifarm.tecolearning.common.exception.BadRequestException;
 

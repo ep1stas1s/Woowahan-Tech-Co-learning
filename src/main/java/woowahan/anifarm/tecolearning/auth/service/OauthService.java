@@ -8,9 +8,9 @@ import woowahan.anifarm.tecolearning.auth.service.exception.OauthException;
 import woowahan.anifarm.tecolearning.auth.service.exception.UserAccountException;
 import woowahan.anifarm.tecolearning.user.domain.AccountStatus;
 import woowahan.anifarm.tecolearning.user.domain.User;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
-import woowahan.anifarm.tecolearning.user.dto.UserLoginDto;
-import woowahan.anifarm.tecolearning.user.exception.UserNotFoundException;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserLoginDto;
+import woowahan.anifarm.tecolearning.user.service.exception.UserNotFoundException;
 import woowahan.anifarm.tecolearning.user.service.UserService;
 
 

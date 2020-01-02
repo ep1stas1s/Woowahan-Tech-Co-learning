@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import woowahan.anifarm.tecolearning.auth.advice.LoggedInUser;
 import woowahan.anifarm.tecolearning.study.service.StudyParticipantService;
 import woowahan.anifarm.tecolearning.study.service.StudyService;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
 
 @RestController
 @RequestMapping("/api/studies/{studyId}/participants")

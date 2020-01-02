@@ -1,4 +1,4 @@
-package woowahan.anifarm.tecolearning.user.dto;
+package woowahan.anifarm.tecolearning.user.service.dto;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -9,21 +9,23 @@ import woowahan.anifarm.tecolearning.user.domain.User;
 @NoArgsConstructor
 @Getter
 @ToString
-public class UserLoginDto {
-
+public class UserCreateDto {
     private String email;
     private String password;
+    private String nickName;
 
     @Builder
-    public UserLoginDto(String email, String password) {
+    public UserCreateDto(String email, String password, String nickName) {
         this.email = email;
         this.password = password;
+        this.nickName = nickName;
     }
 
     public User toEntity() {
         return User.builder()
                 .email(email)
                 .password(password)
+                .nickName(nickName)
                 .build();
     }
 }

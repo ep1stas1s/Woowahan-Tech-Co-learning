@@ -12,7 +12,7 @@ import woowahan.anifarm.tecolearning.study.domain.Study;
 import woowahan.anifarm.tecolearning.study.domain.StudyStatus;
 import woowahan.anifarm.tecolearning.user.domain.User;
 import woowahan.anifarm.tecolearning.user.domain.UserRepository;
-import woowahan.anifarm.tecolearning.user.exception.UserNotFoundException;
+import woowahan.anifarm.tecolearning.user.service.exception.UserNotFoundException;
 
 import java.time.LocalDate;
 

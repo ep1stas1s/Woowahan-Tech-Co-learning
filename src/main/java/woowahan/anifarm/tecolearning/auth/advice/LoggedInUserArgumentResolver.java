@@ -7,7 +7,7 @@ import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.method.support.ModelAndViewContainer;
 import woowahan.anifarm.tecolearning.auth.WebToken;
 import woowahan.anifarm.tecolearning.auth.service.exception.TokenNotFoundException;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Arrays;

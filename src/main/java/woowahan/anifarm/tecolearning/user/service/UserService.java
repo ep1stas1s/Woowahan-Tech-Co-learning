@@ -3,12 +3,12 @@ package woowahan.anifarm.tecolearning.user.service;
 import org.springframework.stereotype.Service;
 import woowahan.anifarm.tecolearning.user.domain.User;
 import woowahan.anifarm.tecolearning.user.domain.UserRepository;
-import woowahan.anifarm.tecolearning.user.dto.UserCreateDto;
-import woowahan.anifarm.tecolearning.user.dto.UserInfoDto;
-import woowahan.anifarm.tecolearning.user.dto.UserLoginDto;
-import woowahan.anifarm.tecolearning.user.dto.UserUpdateDto;
-import woowahan.anifarm.tecolearning.user.exception.UserCreateException;
-import woowahan.anifarm.tecolearning.user.exception.UserNotFoundException;
+import woowahan.anifarm.tecolearning.user.service.dto.UserCreateDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserInfoDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserLoginDto;
+import woowahan.anifarm.tecolearning.user.service.dto.UserUpdateDto;
+import woowahan.anifarm.tecolearning.user.service.exception.UserCreateException;
+import woowahan.anifarm.tecolearning.user.service.exception.UserNotFoundException;
 
 import javax.transaction.Transactional;
 
