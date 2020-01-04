@@ -8,9 +8,13 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 public class ErrorMessage {
+    private int code;
     private String message;
+    private String errorDescription;
 
-    public ErrorMessage(String message) {
+    public ErrorMessage(int code, String message, String errorDescription) {
+        this.code = code;
         this.message = message;
+        this.errorDescription = errorDescription;
     }
 }

@@ -9,6 +9,7 @@ import woowahan.anifarm.tecolearning.study.service.dto.StudyCreateDto;
 import woowahan.anifarm.tecolearning.study.service.dto.StudyDetailInfoDto;
 import woowahan.anifarm.tecolearning.study.service.dto.StudyInfoDto;
 import woowahan.anifarm.tecolearning.study.service.dto.StudyUpdateDto;
+import woowahan.anifarm.tecolearning.web.advice.dto.ErrorMessage;
 
 import java.time.LocalDate;
 
@@ -92,9 +93,14 @@ public class StudyApiControllerTest extends AbstractWebTestClient {
     void findStudy_ifNoIdInDB() {
         long notExistingId = 999L;
 
-        get(API_STUDIES + "/" + notExistingId)
+        ErrorMessage errorMessage = get(API_STUDIES + "/" + notExistingId)
                 .expectStatus()
-                .isNotFound();
+                .isNotFound()
+                .expectBody(ErrorMessage.class)
+                .returnResult()
+                .getResponseBody();
+
+        System.out.println(errorMessage);
     }
 
     @Test
